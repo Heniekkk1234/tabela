@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Komputera</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 20px; /* Zwiększenie odstępu wewnętrznego */
+        }
+        th {
+            background-color: yellow;
+        }
+        .header {
+            background-color: yellow;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+        }
+        .blue {
+            background-color: lightblue;
+        }
+        .red {
+            background-color: red;
+            color: white;
+        }
+        .footer {
+            background-color: yellow;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="5" class="header">Dane Komputera-Henryk Piszczek2K2</th>
+        </tr>
+        <tr class="red">
+            <th>Model procesora</th>
+            <th>Marka procesora</th>
+            <th>Ilość rdzeni</th>
+            <th>Ilość wątków</th>
+            <th>Taktowanie (GHz)</th>
+        </tr>
+        <tr>
+            <td>Intel Core i9-12900K</td>
+            <td rowspan="6" class="blue">Intel</td>
+            <td class="red">16 (8P + 8E)</td>
+            <td class="blue">24</td>
+            <td class="red">3.2 (do 5.2 GHz)</td>
+        </tr>
+        <tr>
+            <td>Intel Core i7-12700K</td>
+            <td class="red">12 (8P + 4E)</td>
+            <td class="blue">20</td>
+            <td class="red">3.6 (do 5.0 GHz)</td>
+        </tr>
+        <tr>
+            <td>Intel Core i5-12600K</td>
+            <td class="red">10 (6P + 4E)</td>
+            <td class="blue">16</td>
+            <td class="red">3.7 (do 4.9 GHz)</td>
+        </tr>
+        <tr>
+            <td>Intel Core i9-11900K</td>
+            <td class="red">8</td>
+            <td class="blue">16</td>
+            <td class="red">3.5 (do 5.3 GHz)</td>
+        </tr>
+        <tr>
+            <td>Intel Core i7-11700K</td>
+            <td class="red">8</td>
+            <td class="blue">16</td>
+            <td class="red">3.6 (do 5.0 GHz)</td>
+        </tr>
+        <tr>
+            <td>Intel Core i5-11600K</td>
+            <td class="red">6</td>
+            <td class="blue">12</td>
+            <td class="red">3.9 (do 4.9 GHz)</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="footer">Dane Komputera</td>
+        </tr>
+    </table>
+    <p>Źródło własne</p>
+</body>
+</html>
